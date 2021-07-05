@@ -1,0 +1,287 @@
+body{
+    background-image: url("nk.jpeg");
+    height: 100%;
+    width: 100%;
+}
+section{
+    position: relative;
+    background-position: center center;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 450px;
+    height: 450px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;
+}
+
+h1{
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.control{
+    color: white;
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color:black;
+    outline:none;
+    margin: 1em 0;
+}
+.control input[type="submit"]{
+    background:#007bff;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1 2em;
+    opacity: 8;
+    transition: opacity 3s ease;
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 6;
+    transition: opacity 3s ease;
+}
+.link a:hover{
+    opacity: 1;
+}
+#form{
+    margin-right: 300px;
+    
+    padding-right: 5%;
+    justify-content: center;
+    padding: 5% 50px 20px 20px;
+    background-color: #84e184;
+    min-height:600px;
+    border-radius: 5%;
+}
+.registration{
+    font-size: 50px;
+    font-family: Agency FB;
+    font-weight: 650px;
+    border-bottom-style: ridge;
+}
+.text{
+   height: 40px;
+}
+label{
+    font-size: 22px;
+}
+.btn-primary{
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 30%;
+    text-align: center;
+    border-radius: 0px;
+    padding: 100px;
+    width: 30%;
+}
+/*navication*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color:red;
+}
+.navbar-brand img{
+
+height: 50px;
+padding-left: 30px;
+
+}
+.navbar-nav li{
+
+    padding-top: 0 10px;
+}
+.navbar-nav li a{
+
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+
+    color: #007bff!important;
+}
+.navbar{
+    background:gray;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color:  #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*whatsapp*/
+
+.back-top{
+    background-color: #009688;
+    height: 15vh;
+}
+.back-main{
+    background-color: #D9DBD5;
+    height: 85vh;
+}
+.back-container{
+    position: relative;
+}
+.front-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.front-container1{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    
+}
+.chat-top{
+    background-color: #EDEDED;
+        min-height: 50px;
+}
+.profile-image{
+    margin-top: 7px;
+    height: 30px;
+    width: 30px;
+}
+.float-right{
+    float: right;
+    margin-top: 2px;
+}
+.contacts{
+    background-color: #ffffff;
+    min-height: 600px;
+}
+.contact-table-scroll{
+    overflow-y: scroll;
+    height: 600px;
+}
+.message-area{
+    background-color: gainsboro;
+    min-height: 600px;
+    flex: 1;
+}
+.message-table-scroll{
+    overflow-y: scroll;
+    height: 550px;
+    flex: 1;
+}
+.message-box{
+    background-color: #F0F0F0
+}
+.message-box > from {
+    flex: 1;
+    display: flex;
+    background-color: blue;
+        
+}
+.message-box > from > input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+.message-box > from > button {
+    display: none;
+}
+.chat_message{
+     position: relative;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: #84e184
+}
+.chat_name{
+    position: absolute;
+    margin-top: 10px;
+    top: 0px;
+    font-weight: 800;
+    
+}
+.chat_tm{
+    margin-left: 10px;
+    
+}
+.chat_reciever{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
